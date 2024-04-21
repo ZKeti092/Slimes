@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Eat a slug to survive (v1)", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "Eat a slug to get bigger (v1)", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 local PlayerTab = Window:MakeTab({
 	Name = "Player",
 	Icon = "rbxassetid://4483345998",
@@ -35,7 +35,7 @@ end
 
 while true do
     updateSpeed()
-    wait(0.001) -- ждем 1 миллисекунду
+    wait(0.0000000000001) -- ждем 1 миллисекунду
 end
   	end    
 })
@@ -50,7 +50,7 @@ end
 
 while true do
     updateSpeed()
-    wait(0.001) -- ждем 1 миллисекунду
+    wait(0.0000000000001) -- ждем 1 миллисекунду
 end
   	end    
 })
